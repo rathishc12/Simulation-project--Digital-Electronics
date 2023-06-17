@@ -14,7 +14,7 @@ De-multiplexer is also a device with one input and multiple output lines. It is 
 # TIMING DIAGRAM
 ![image](https://github.com/rathishc12/Simulation-project--Digital-Electronics/assets/120539398/e9e27332-b1e2-42fa-a2d2-1dd01744e0e3)
 
-# PROGRAM
+##PROGRAM
 module demux_1_8(y,s,a); output reg [7:0]y;
 input [2:0]s; input a;
 always @(*) begin y=0;
@@ -26,5 +26,5 @@ case(s) 3'd0: y[0]=a;
 endcase 
 end 
 endmodule
-# REFERENCE
+# RESULT
 Thus Designed and simulated 1:8 De- MUX using Verilog programming.
